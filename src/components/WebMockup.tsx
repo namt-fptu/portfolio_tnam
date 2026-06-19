@@ -71,7 +71,7 @@ export default function WebMockup({ type, theme = "blue", customHeroText }: WebM
               {customHeroText || "Sleek and immersive design systems."}
             </h4>
             <p className="text-[10px] opacity-70 mt-1 max-w-[70%] leading-relaxed">
-              Experience the pinnacle of typography, motion graphics, and ultra-crisp interface layout parameters.
+              Experience the concepts of typography, motion graphics, and modern interface layout parameters.
             </p>
 
             <div className="flex gap-2 mt-3">
@@ -263,7 +263,7 @@ export default function WebMockup({ type, theme = "blue", customHeroText }: WebM
                   Intuitive home-service pond check integration.
                 </h3>
                 <p className="text-[9px] text-neutral-500 mt-1 leading-relaxed">
-                  Built with ReactJS, Ant Design, and Axios RESTful patterns for expert home consultation schedules.
+                  Built with ReactJS, Ant Design, and Axios RESTful patterns for professional home consultation schedules.
                 </p>
                 <div className="mt-3.5 flex gap-1.5 items-center">
                   <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
@@ -271,7 +271,7 @@ export default function WebMockup({ type, theme = "blue", customHeroText }: WebM
                 </div>
               </div>
 
-              {/* Expert diagnostic dispatch card */}
+              {/* Professional diagnostic dispatch card */}
               <div className="bg-teal-900 text-white p-2.5 rounded-lg flex flex-col justify-between h-24">
                 <div className="flex items-center gap-1">
                   <span className="text-[7px] tracking-wide text-teal-200 font-mono uppercase">DISPATCH APPOINTMENT</span>

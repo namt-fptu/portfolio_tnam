@@ -80,7 +80,7 @@ export default function TechStackDashboard() {
     {
       name: "Tailwind CSS & Component UI",
       level: 95,
-      experience: "Pixel-Perfect Designs",
+      experience: "High-Fidelity Designs",
       category: "web",
       tags: ["Responsive", "Custom Themes", "Ant Design"],
       descriptionEn: "Translating sophisticated Dribbble layouts into responsive, accessible Tailwind components with high fidelity and elegant spacing.",

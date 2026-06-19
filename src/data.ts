@@ -29,7 +29,7 @@ export const experiences: WorkExperience[] = [
 export const awards: Award[] = [
   {
     id: "award-1",
-    title: "SAP S/4HANA Capstone Highlight Project (BJSM)",
+    title: "SAP S/4HANA Capstone Project (BJSM)",
     provider: "FPT University Jury",
     date: "2024",
     link: "https://fpt.edu.vn"
@@ -43,7 +43,7 @@ export const awards: Award[] = [
   },
   {
     id: "award-3",
-    title: "Succesful Bridge from ReactJS/NextJS to SAP Backend",
+    title: "Transition from ReactJS/NextJS to SAP Backend",
     provider: "FPT Software Intern Cohort",
     date: "Jan 2025",
     link: "https://fptsoftware.com"
@@ -97,7 +97,7 @@ export const services: ServiceItem[] = [
     id: "srv-1",
     title: "SAP ABAP Backend Development & S/4HANA",
     description: "Specialized in enterprise-standard SAP S/4HANA compliant service models utilizing Modern ABAP (7.40+), OOA, CDS, and RAP.",
-    longDescription: "Building robust, robust-architecture backend structures for SAP S/4HANA. Experienced in setting up RAP unmanaged patterns, exposing crisp OData services for SAP Fiori consumption, using BAPIs, modern Object-Oriented principles, and high-performance Open SQL.",
+    longDescription: "Building structured backend services for SAP S/4HANA. Experienced in setting up RAP unmanaged patterns, exposing OData services for SAP Fiori consumption, using BAPIs, Object-Oriented principles, and Open SQL.",
     illustrations: [
       {
         title: "BJSM Job Scheduler Control",
@@ -107,7 +107,7 @@ export const services: ServiceItem[] = [
       {
         title: "RAP Custom OData Service Exposure",
         theme: "blue",
-        heroText: "Security Protected Fiori Gateway APIs"
+        heroText: "OData Service Exposure for Fiori"
       }
     ]
   },
@@ -115,7 +115,7 @@ export const services: ServiceItem[] = [
     id: "srv-2",
     title: "Modern Web Frontend Development (ReactJS & NextJS)",
     description: "Developing end-to-end web services with clean responsive layouts, robust state workflows, and fast API communication.",
-    longDescription: "Successfully bridged frontend frameworks like ReactJS/NextJS, TypeScript, and Tailwind with secure downstream services. Highly proficient in clean component isolation, real-time channels like Firebase, and RESTful API processing.",
+    longDescription: "Bridging frontend frameworks like ReactJS/NextJS, TypeScript, and Tailwind with downstream services. Proficient in component isolation, real-time channels like Firebase, and RESTful API processing.",
     illustrations: [
       {
         title: "Koi Care Platform Portal",
@@ -133,12 +133,12 @@ export const services: ServiceItem[] = [
     id: "srv-3",
     title: "Performance Optimization & Code Quality Assurance",
     description: "Troubleshooting custom backend logic, optimizing SQL indexes, and adhering strictly to SAP Clean Code guidelines.",
-    longDescription: "Deeply committed to keeping database query counts low. Solid foundation in avoiding SELECT-in-LOOP patterns, conducting extensive Extended Program Check (SLIN) loops, and debugging using Eclipse ADT tools.",
+    longDescription: "Focused on keeping database query counts low by avoiding SELECT-in-LOOP patterns, conducting Extended Program Checks (SLIN), and debugging using Eclipse ADT tools.",
     illustrations: [
       {
         title: "SLIN and ATC Assessment Console",
         theme: "dark",
-        heroText: "100% Compliant Code Compliance"
+        heroText: "Standard SLIN & ATC Quality Checks"
       }
     ]
   }
@@ -155,7 +155,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: "test-2",
-    quote: "Passionate about building scalable, clean-code, performance-optimized, and enterprise-compliant systems. Combines professional English capability with thorough trial-tested backend logic.",
+    quote: "Interested in building stable, clean-code, and compliant systems. Combines professional English capability with structured backend logic.",
     author: "Nguyen Thai Nam",
     role: "SAP ABAP Developer",
     company: "Professional Statement",
@@ -194,7 +194,7 @@ export const experiencesVi: WorkExperience[] = [
 export const awardsVi: Award[] = [
   {
     id: "award-1",
-    title: "Đề án Capstone tâm đắc nhất SAP S/4HANA (Hệ thống BJSM)",
+    title: "Đề án Capstone SAP S/4HANA (Hệ thống BJSM)",
     provider: "Hội đồng Giám khảo Đại học FPT",
     date: "2024",
     link: "https://fpt.edu.vn"
@@ -208,7 +208,7 @@ export const awardsVi: Award[] = [
   },
   {
     id: "award-3",
-    title: "Chuyển giao và kết nối thành công từ Frontend ReactJS/NextJS sang SAP Backend",
+    title: "Chuyển đổi từ Frontend ReactJS/NextJS sang SAP Backend",
     provider: "Đội ngũ Thực tập sinh FPT Software",
     date: "Tháng 01/2025",
     link: "https://fptsoftware.com"
@@ -221,7 +221,7 @@ export const projectsVi: Project[] = [
     title: "Hệ thống Quản lý & Lập lịch Background Job (BJSM)",
     category: "Đồ án Capstone SAP",
     period: "2024",
-    description: "Thiết kế và phát triển nền tảng quản lý Background Job tập trung trên SAP S/4HANA thay thế trực quan cho các T-Code SM36/SM37 truyền thống. Triển khai logic nghiệp vụ RAP (Unmanaged) và đóng gói OData Services để đồng bộ với SAP Fiori. Tích hợp trực tiếp các Function Modules tiêu chuẩn của SAP (JOB_OPEN, JOB_SUBMIT, JOB_CLOSE) nhằm tự động hóa vòng đời công việc. Tối ưu hóa các câu lệnh Open SQL, loại bỏ hoàn toàn các cấu trúc SELECT-in-LOOP giúp tiết kiệm số lượng truy vấn hệ thống vượt trội.",
+    description: "Thiết kế và phát triển nền tảng quản lý Background Job tập trung trên SAP S/4HANA thay thế trực quan cho các T-Code SM36/SM37 truyền thống. Triển khai logic nghiệp vụ RAP (Unmanaged) và đóng gói OData Services để đồng bộ với SAP Fiori. Tích hợp trực tiếp các Function Modules tiêu chuẩn của SAP (JOB_OPEN, JOB_SUBMIT, JOB_CLOSE) nhằm tự động hóa vòng đời công việc. Tối ưu hóa các câu lệnh Open SQL, loại bỏ các cấu trúc SELECT-in-LOOP giúp tiết kiệm số lượng truy vấn hệ thống.",
     tags: ["ABAP Hiện đại", "RAP (Unmanaged)", "CDS Layer", "OOA", "Open SQL"],
     mockImageUrl: "struktura",
     accentColor: "from-[#002B66] to-[#004BB3]",
@@ -234,7 +234,7 @@ export const projectsVi: Project[] = [
     title: "Aidonia (Trang thương mại điện tử)",
     category: "Dịch vụ Web Thương mại điện tử",
     period: "2024",
-    description: "Xây dựng giao diện phản hồi mượt mà, tích hợp Firebase & REST APIs xử lý dữ liệu chat trực tuyến thời gian thực, quản lý danh mục sản phẩm, đồng thời tối ưu hóa cổng thanh toán dịch vụ cao cấp.",
+    description: "Xây dựng giao diện phản hồi ổn định, tích hợp Firebase & REST APIs xử lý dữ liệu chat trực tuyến thời gian thực, quản lý danh mục sản phẩm, đồng thời tối ưu hóa cổng thanh toán dịch vụ.",
     tags: ["NextJS", "Firebase", "REST API", "Tailwind CSS"],
     mockImageUrl: "prudentlife",
     accentColor: "from-orange-500 to-red-600",
@@ -247,7 +247,7 @@ export const projectsVi: Project[] = [
     title: "Nền tảng Koi Care Tại Nhà",
     category: "Cổng Đặt Lịch Tư vấn & Chăm sóc tại nhà",
     period: "2024",
-    description: "Thiết kế cổng tương tác đặt lịch nhanh chóng cho dịch vụ kiểm tra sức khỏe hồ cá Koi, đồng bộ hệ thống RESTful API bảo mật cao bằng Axios giúp quản lý lịch hẹn và đăng tải truyền thông trực quan.",
+    description: "Thiết kế cổng tương tác đặt lịch cho dịch vụ kiểm tra sức khỏe hồ cá Koi, đồng bộ hệ thống RESTful API bằng Axios giúp quản lý lịch hẹn và truyền tải dữ liệu trực quan.",
     tags: ["ReactJS", "Ant Design", "REST API", "Axios"],
     mockImageUrl: "eliteguard",
     accentColor: "from-teal-600 to-emerald-500",
@@ -262,7 +262,7 @@ export const servicesVi: ServiceItem[] = [
     id: "srv-1",
     title: "Lập trình Backend SAP ABAP & S/4HANA",
     description: "Chuyên sâu mô hình dịch vụ tiêu chuẩn doanh nghiệp SAP S/4HANA bằng Modern ABAP (7.40+), OOA, CDS và RAP.",
-    longDescription: "Xây dựng các hạ tầng backend vững chắc, chuẩn kiến trúc cho hệ thống SAP S/4HANA. Có kinh nghiệm triển khai mô hình RAP unmanaged, cung cấp dịch vụ OData tinh gọn phục vụ ứng dụng SAP Fiori, tận dụng BAPIs, lập trình hướng đối tượng chuyên sâu và tối ưu hóa hệ thống dữ liệu Open SQL.",
+    longDescription: "Xây dựng hạ tầng backend theo chuẩn kiến trúc cho hệ thống SAP S/4HANA. Có kinh nghiệm triển khai mô hình RAP unmanaged, cung cấp dịch vụ OData phục vụ ứng dụng SAP Fiori, tận dụng BAPIs, lập trình hướng đối tượng và thực thi hiệu quả các câu lệnh Open SQL.",
     illustrations: [
       {
         title: "Bộ điều khiển Lập trình Lịch Job BJSM",
@@ -272,7 +272,7 @@ export const servicesVi: ServiceItem[] = [
       {
         title: "Cung cấp Dịch vụ OData Custom RAP",
         theme: "blue",
-        heroText: "Cổng bảo mật APIs Gateway cho Fiori"
+        heroText: "Cổng APIs Gateway cho Fiori"
       }
     ]
   },
@@ -280,7 +280,7 @@ export const servicesVi: ServiceItem[] = [
     id: "srv-2",
     title: "Phát triển Web Frontend (ReactJS & NextJS)",
     description: "Thiết kế và lập trình giao diện Web tối ưu mượt mà, quản lý trạng thái hiệu quả và kết nối các endpoint APIs ổn định.",
-    longDescription: "Hỗ trợ kết nối giữa các framework giao diện hiện đại như ReactJS, NextJS, TypeScript, Tailwind với các hệ thống dịch vụ backend. Thành thạo việc cấu trúc mã nguồn dạng module dễ tái sử dụng, đồng bộ kênh thời gian thực Firebase và giao tiếp RESTful APIs.",
+    longDescription: "Hỗ trợ kết nối giữa các framework giao diện như ReactJS, NextJS, TypeScript, Tailwind với các hệ thống dịch vụ backend. Thực hiện cấu trúc mã nguồn dạng module dễ tái sử dụng, đồng bộ kênh thời gian thực Firebase và giao tiếp RESTful APIs.",
     illustrations: [
       {
         title: "Cổng thông tin đặt lịch cá Koi",
@@ -298,12 +298,12 @@ export const servicesVi: ServiceItem[] = [
     id: "srv-3",
     title: "Tối ưu hóa Hiệu năng & Đảm bảo Chất lượng Code",
     description: "Giải quyết các điểm nghẽn logic nghiệp vụ, nâng cấp tối ưu hóa SQL indexes, tuân thủ chặt chuẩn SAP Clean Code.",
-    longDescription: "Nỗ lực tối đa hóa tốc độ tra cứu và giảm thiểu số lần gọi Database truy vấn rườm rà. Hiểu rõ cách xử lý loại bỏ SELECT-in-LOOP, thực hiện đánh giá kiểm thử SLIN/ATC liên tục và sử dụng thành thạo Eclipse ADT phục vụ gỡ lỗi.",
+    longDescription: "Nỗ lực tối ưu hóa tốc độ tra cứu và hạn chế số lần truy vấn cơ sở dữ liệu. Hiểu rõ cách xử lý loại bỏ SELECT-in-LOOP, thực hiện đánh giá kiểm thử SLIN/ATC liên tục và sử dụng Eclipse ADT phục vụ gỡ lỗi.",
     illustrations: [
       {
         title: "Bảng điều khiển kiểm thử quản trị SLIN & ATC",
         theme: "dark",
-        heroText: "Mã nguồn đạt chuẩn chất lượng 100%"
+        heroText: "Kiểm thử mã nguồn qua SLIN & ATC"
       }
     ]
   }

@@ -233,7 +233,7 @@ export default function Footer({ onTalkClick }: FooterProps) {
         <div className="text-[9.5px] text-center text-neutral-600 font-normal leading-relaxed pt-2">
           {language === "vi"
             ? "Được đóng gói chuẩn như một ứng dụng đơn trang React. Sử dụng mã nguồn tối ưu hóa, mượt mà trên môi trường an toàn cao."
-            : "Designed by Syahrul Falah on Dribbble. Re-engineered as a pixel-perfect, fully accessible React workspace application for Google AI Studio."}
+            : "Designed by Syahrul Falah on Dribbble. Re-engineered as a high-fidelity, fully accessible React workspace application for Google AI Studio."}
         </div>
 
       </div>
