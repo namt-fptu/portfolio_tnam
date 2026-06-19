@@ -204,6 +204,8 @@ export default function SelectedWorks() {
                           ? (language === "vi" ? "Lập trình viên SAP" : "SAP Developer")
                           : activeProject.id === "proj-2" 
                           ? (language === "vi" ? "Lập trình viên Fullstack" : "Fullstack Developer")
+                          : activeProject.id === "proj-4"
+                          ? (language === "vi" ? "Lập trình viên Android" : "Android Developer")
                           : (language === "vi" ? "Lập trình viên Frontend" : "Frontend Developer")}
                       </span>
                     </div>
@@ -218,6 +220,8 @@ export default function SelectedWorks() {
                           ? "ABAP, RAP unmanaged, CDS"
                           : activeProject.id === "proj-2"
                           ? "NextJS, Firebase, Tailwind"
+                          : activeProject.id === "proj-4"
+                          ? "Android SDK, Firebase, Gemini"
                           : "React, Antd, Axios, REST"}
                       </span>
                     </div>
@@ -273,6 +277,25 @@ export default function SelectedWorks() {
                           <div className="flex items-center gap-2">
                             <Check className="w-4 h-4 text-emerald-600 bg-emerald-50 rounded-full p-0.5 shrink-0" />
                             <span>{language === "vi" ? "Cơ chế đáp ứng hoàn hảo trên mọi kích cỡ thiết bị" : "Optimized responsive layout scaling models"}</span>
+                          </div>
+                        </>
+                      ) : activeProject.id === "proj-4" ? (
+                        <>
+                          <div className="flex items-center gap-2">
+                            <Check className="w-4 h-4 text-emerald-600 bg-emerald-50 rounded-full p-0.5 shrink-0" />
+                            <span>{language === "vi" ? "Xác thực người dùng bảo mật bằng Firebase Auth" : "Secure authentication using Firebase Auth"}</span>
+                          </div>
+                          <div className="flex items-center gap-2">
+                            <Check className="w-4 h-4 text-emerald-600 bg-emerald-50 rounded-full p-0.5 shrink-0" />
+                            <span>{language === "vi" ? "Trích xuất OCR, tài liệu PDF, DOCX tự động" : "Automated OCR, PDF, and DOCX document parser"}</span>
+                          </div>
+                          <div className="flex items-center gap-2">
+                            <Check className="w-4 h-4 text-emerald-600 bg-emerald-50 rounded-full p-0.5 shrink-0" />
+                            <span>{language === "vi" ? "Sinh tóm tắt, flashcard, trắc nghiệm qua Gemini API" : "GenAI summaries, flashcards, & quizzes via Gemini"}</span>
+                          </div>
+                          <div className="flex items-center gap-2">
+                            <Check className="w-4 h-4 text-emerald-600 bg-emerald-50 rounded-full p-0.5 shrink-0" />
+                            <span>{language === "vi" ? "Thuật toán lặp lại ngắt quãng Leitner ôn tập" : "Leitner spaced repetition learning models"}</span>
                           </div>
                         </>
                       ) : (

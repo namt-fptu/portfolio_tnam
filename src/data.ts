@@ -89,6 +89,19 @@ export const projects: Project[] = [
     bgColor: "bg-teal-50/50",
     link: "#",
     featured: true
+  },
+  {
+    id: "proj-4",
+    title: "EduSummarize (PRM392)",
+    category: "AI-Powered Android Learning Application",
+    period: "2024",
+    description: "Designed and developed an AI-powered Android learning application focused on transforming raw documents into structured revision materials. Built secure user authentication using Firebase Auth. Integrated OCR, PDF, and DOCX text-extraction pipelines to ingest diverse document formats. Connected the Google Gemini API to automatically generate content summaries, flashcards, and quizzes. Implemented a Leitner-system spaced repetition flashcard review interface and structured multiple-choice quiz boards. Saved text summaries and generated audio notes securely using Cloud Firestore and Firebase Storage.",
+    tags: ["Android SDK", "Java/Kotlin", "Firebase Auth & Firestore", "Gemini API", "OCR & Document Processing"],
+    mockImageUrl: "edusummarize",
+    accentColor: "from-purple-600 to-indigo-600",
+    bgColor: "bg-purple-50/50",
+    link: "#",
+    featured: false
   }
 ];
 
@@ -254,6 +267,19 @@ export const projectsVi: Project[] = [
     bgColor: "bg-teal-50/50",
     link: "#",
     featured: true
+  },
+  {
+    id: "proj-4",
+    title: "EduSummarize (PRM392)",
+    category: "Ứng dụng di động học tập tích hợp AI (Android)",
+    period: "2024",
+    description: "Thiết kế và phát triển ứng dụng di động Android hỗ trợ học tập tích hợp trí tuệ nhân tạo (AI), chuyển đổi tài liệu thô thành nội dung ôn tập hiệu quả. Xây dựng cơ chế xác thực tài khoản qua Firebase Auth. Tích hợp các thư viện OCR, trích xuất text từ tệp PDF và DOCX. Kết nối trực tiếp với API Google Gemini để tự động sinh bản tóm tắt, bộ flashcard học tập và câu hỏi trắc nghiệm ôn tập. Triển khai giao diện học tập theo thẻ ghi nhớ (flashcard) hỗ trợ thuật toán ôn tập lặp lại ngắt quãng (Spaced Repetition) và bảng làm bài trắc nghiệm tính điểm. Lưu trữ bảo mật dữ liệu văn bản và các tệp âm thanh (audio) bài học thông qua Cloud Firestore và Firebase Storage.",
+    tags: ["Android SDK", "Java/Kotlin", "Firebase Auth & Firestore", "Gemini API", "OCR & Xử lý Tài liệu"],
+    mockImageUrl: "edusummarize",
+    accentColor: "from-purple-600 to-indigo-600",
+    bgColor: "bg-purple-50/50",
+    link: "#",
+    featured: false
   }
 ];
 

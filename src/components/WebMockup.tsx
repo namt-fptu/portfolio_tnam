@@ -292,6 +292,97 @@ export default function WebMockup({ type, theme = "blue", customHeroText }: WebM
               <span>Available 24/7 Portal Support</span>
             </div>
           </div>
+        ) : type === "edusummarize" ? (
+          <div className="flex-1 flex items-center justify-center bg-neutral-100 p-2.5 rounded-xl border border-neutral-200/50">
+            {/* Phone Container */}
+            <div className="w-[145px] aspect-[9/18.5] bg-[#0c0c0d] border-[3px] border-neutral-850 rounded-[1.5rem] shadow-lg overflow-hidden flex flex-col relative shrink-0">
+              
+              {/* Dynamic Island Notch */}
+              <div className="w-12 h-2.5 bg-neutral-900 rounded-full mx-auto absolute top-1.5 left-1/2 -translate-x-1/2 z-20" />
+              
+              {/* App Screen */}
+              <div className="flex-1 bg-neutral-50 rounded-[1.1rem] overflow-hidden flex flex-col justify-between p-2 mt-0.5 relative border border-neutral-950/15">
+                
+                {/* App Header */}
+                <div className="flex justify-between items-center pb-1.5 border-b border-neutral-200/40 text-[7px] mt-2">
+                  <div className="flex items-center gap-1 font-bold text-indigo-700">
+                    <div className="w-1.5 h-1.5 bg-indigo-600 rounded-sm"></div>
+                    <span>EduSummarize</span>
+                  </div>
+                  <span className="text-neutral-400 font-mono scale-90">v1.0</span>
+                </div>
+
+                {/* Main Body */}
+                <div className="flex-1 py-2 flex flex-col justify-between overflow-hidden gap-1.5">
+                  
+                  {/* Summary Result Card */}
+                  <div className="bg-white border border-neutral-200/70 p-1.5 rounded-lg shadow-sm space-y-1">
+                    <div className="flex items-center gap-1 text-emerald-600 font-bold text-[6.5px]">
+                      <div className="w-1 h-1 rounded-full bg-emerald-500"></div>
+                      <span>Gemini Summary</span>
+                    </div>
+                    <div className="h-1 w-16 bg-neutral-300 rounded"></div>
+                    <div className="space-y-0.5">
+                      <div className="h-0.5 w-full bg-neutral-200 rounded"></div>
+                      <div className="h-0.5 w-[90%] bg-neutral-200 rounded"></div>
+                      <div className="h-0.5 w-[75%] bg-neutral-200 rounded"></div>
+                    </div>
+                  </div>
+
+                  {/* Features quick grid */}
+                  <div className="grid grid-cols-2 gap-1">
+                    <div className="bg-white border border-neutral-200/50 p-1 rounded-md text-center flex flex-col justify-between items-center aspect-square">
+                      <span className="text-[12px]">🎴</span>
+                      <span className="text-[5px] font-bold text-neutral-600 leading-none">Flashcards</span>
+                      <div className="w-4 h-0.5 bg-indigo-200 rounded mt-0.5"></div>
+                    </div>
+                    <div className="bg-white border border-neutral-200/50 p-1 rounded-md text-center flex flex-col justify-between items-center aspect-square">
+                      <span className="text-[12px]">📝</span>
+                      <span className="text-[5px] font-bold text-neutral-600 leading-none">Practice Quiz</span>
+                      <div className="w-5 h-0.5 bg-purple-200 rounded mt-0.5"></div>
+                    </div>
+                  </div>
+
+                  {/* Audio note player mini bar */}
+                  <div className="bg-indigo-50 border border-indigo-100 rounded-md p-1 flex items-center justify-between">
+                    <div className="flex items-center gap-1">
+                      <span className="text-[7px]">🔊</span>
+                      <span className="text-[5px] font-mono text-indigo-700 font-bold font-semibold">Audio Note.mp3</span>
+                    </div>
+                    <div className="w-8 h-1 bg-indigo-200 rounded overflow-hidden">
+                      <div className="bg-indigo-600 h-full w-[60%]"></div>
+                    </div>
+                  </div>
+
+                </div>
+
+                {/* Navigation Bar bottom */}
+                <div className="border-t border-neutral-200/50 pt-1 flex justify-around items-center text-[7px] text-neutral-400 font-medium">
+                  <span className="text-indigo-600">🏠</span>
+                  <span>📚</span>
+                  <span>⚙️</span>
+                </div>
+
+              </div>
+
+            </div>
+
+            {/* Explanatory notes beside phone inside the card */}
+            <div className="flex-1 pl-3 text-neutral-800 flex flex-col justify-center gap-1.5 max-w-[200px]">
+              <span className="text-[7.5px] font-mono font-bold text-purple-600 uppercase tracking-wider block">ANDROID ARCHITECTURE</span>
+              <h4 className="text-[10px] lg:text-[11px] font-bold text-neutral-900 leading-tight">
+                AI Study Companion
+              </h4>
+              <p className="text-[8px] text-neutral-550 leading-relaxed font-sans font-normal">
+                Converts OCR/PDF text inputs into customized audio lectures, flashcards, and quizzes using the Google Gemini model.
+              </p>
+              <div className="flex gap-1 flex-wrap mt-0.5">
+                <span className="px-1.5 py-0.5 bg-purple-50 text-purple-600 rounded text-[6.5px] font-mono font-bold border border-purple-100">Firebase Auth</span>
+                <span className="px-1.5 py-0.5 bg-indigo-50 text-indigo-600 rounded text-[6.5px] font-mono font-bold border border-indigo-100">Firestore</span>
+              </div>
+            </div>
+
+          </div>
         ) : (
           // moovin layout
           <div className="flex-1 flex flex-col justify-between text-[#3d2719]">
