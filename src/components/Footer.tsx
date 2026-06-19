@@ -4,7 +4,7 @@
  */
 
 import React, { useEffect, useState } from "react";
-import { ArrowUp, Clock, Mail, Linkedin, Github, FileSpreadsheet, MapPin } from "lucide-react";
+import { ArrowUp, Clock, Mail, Linkedin, Github, FileSpreadsheet, MapPin, Download } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 
 interface FooterProps {
@@ -145,7 +145,16 @@ export default function Footer({ onTalkClick }: FooterProps) {
               <button onClick={() => scrollToSecValue("about-me")} className="hover:text-white transition-colors text-left cursor-pointer">
                 {t("header.education")}
               </button>
-
+              <a 
+                href="/Tnam_CV.pdf"
+                download="Tnam_CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors text-left flex items-center gap-1.5 cursor-pointer"
+              >
+                <Download className="w-3.5 h-3.5 text-[#ff5722]" />
+                <span>{t("common.download_cv")}</span>
+              </a>
             </div>
           </div>
 

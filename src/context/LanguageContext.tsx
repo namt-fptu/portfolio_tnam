@@ -84,7 +84,8 @@ const translations = {
     "footer.title": "Let's Get in Touch",
     "footer.subtitle": "Have an opportunity?",
     "footer.desc": "I am responsive, details-oriented, and ready for collaborative engineering roles.",
-    "footer.rights": "SAP ABAP Developer"
+    "footer.rights": "SAP ABAP Developer",
+    "common.download_cv": "Download CV"
   },
   vi: {
     "header.intro": "Giới thiệu",
@@ -156,7 +157,8 @@ const translations = {
     "footer.title": "Hãy giữ liên lạc nhé",
     "footer.subtitle": "Có cơ hội hợp tác?",
     "footer.desc": "Mình luôn phản hồi nhanh, chú trọng chất lượng code và sẵn sàng tham gia các thử thách mới.",
-    "footer.rights": "Lập trình viên SAP ABAP"
+    "footer.rights": "Lập trình viên SAP ABAP",
+    "common.download_cv": "Tải CV"
   }
 };
 

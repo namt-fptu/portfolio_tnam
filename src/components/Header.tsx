@@ -4,7 +4,7 @@
  */
 
 import React, { useEffect, useState } from "react";
-import { Mail, Menu, X, Globe } from "lucide-react";
+import { Mail, Menu, X, Globe, Download } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 import { motion, AnimatePresence } from "motion/react";
 
@@ -127,6 +127,18 @@ export default function Header({ onOpenBooking, activeSection }: HeaderProps) {
             </div>
           </div>
 
+          {/* Download CV CTA Button */}
+          <a
+            href="/Tnam_CV.pdf"
+            download="Tnam_CV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2.5 bg-neutral-100 hover:bg-neutral-200 text-neutral-800 border border-neutral-200/80 rounded-xl text-xs font-bold shadow-sm cursor-pointer flex items-center gap-2 transition-all active:scale-95 leading-none min-h-[44px] shrink-0"
+          >
+            <Download className="w-3.5 h-3.5 text-neutral-500" />
+            <span className="hidden sm:inline">{t("common.download_cv")}</span>
+          </a>
+
           {/* Action CTA Button */}
           <button 
             type="button"
@@ -185,6 +197,26 @@ export default function Header({ onOpenBooking, activeSection }: HeaderProps) {
                     </button>
                   );
                 })}
+              </div>
+
+              {/* Download CV inside mobile panel */}
+              <div className="pt-3 border-t border-dashed border-neutral-100 flex items-center justify-between gap-4">
+                <div className="flex items-center gap-1.5">
+                  <Download className="w-3.5 h-3.5 text-neutral-400" />
+                  <span className="text-xs font-bold text-neutral-500">
+                    {language === "vi" ? "Hồ Sơ Sơ Yếu" : "Curriculum Vitae"}
+                  </span>
+                </div>
+                <a
+                  href="/Tnam_CV.pdf"
+                  download="Tnam_CV.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-3 py-1.5 rounded-md bg-neutral-50 border border-neutral-200 text-neutral-800 text-[10px] font-bold tracking-tight transition-all cursor-pointer min-h-[30px] flex items-center gap-1.5"
+                >
+                  <Download className="w-3 h-3 text-neutral-500" />
+                  <span>{t("common.download_cv")}</span>
+                </a>
               </div>
 
               {/* Languages toggle inside mobile panel */}

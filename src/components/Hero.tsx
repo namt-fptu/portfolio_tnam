@@ -4,7 +4,7 @@
  */
 
 import React from "react";
-import { ArrowUpRight, Github, Trophy, Landmark, Flame, UserCheck } from "lucide-react";
+import { ArrowUpRight, Github, Trophy, Landmark, Flame, UserCheck, Download } from "lucide-react";
 import { motion } from "motion/react";
 import { useLanguage } from "../context/LanguageContext";
 
@@ -99,6 +99,16 @@ export default function Hero({ onTalkClick, onSeeWorkClick }: HeroProps) {
                   >
                     {t("hero.view_projects")}
                   </button>
+                  <a
+                    href="/Tnam_CV.pdf"
+                    download="Tnam_CV.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-5 py-3 border border-neutral-300 hover:bg-neutral-50 active:scale-95 text-xs text-neutral-800 font-semibold rounded-xl transition-all cursor-pointer flex items-center gap-2"
+                  >
+                    <Download className="w-4 h-4 text-neutral-500" />
+                    <span>{t("common.download_cv")}</span>
+                  </a>
                 </div>
               </div>
 
@@ -174,7 +184,7 @@ export default function Hero({ onTalkClick, onSeeWorkClick }: HeroProps) {
 
           </div>
 
-          <div className="flex gap-2">
+          <div className="flex gap-2 flex-wrap">
             <button 
               onClick={onTalkClick}
               className="text-[11px] px-3.5 py-1.5 rounded-lg bg-neutral-900 text-white font-bold hover:bg-neutral-800 cursor-pointer"
@@ -187,6 +197,16 @@ export default function Hero({ onTalkClick, onSeeWorkClick }: HeroProps) {
             >
               {t("hero.view_projects")}
             </button>
+            <a 
+              href="/Tnam_CV.pdf"
+              download="Tnam_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[11px] px-3.5 py-1.5 rounded-lg border border-neutral-200 hover:bg-neutral-100 text-neutral-600 font-bold cursor-pointer flex items-center gap-1.5"
+            >
+              <Download className="w-3.5 h-3.5 text-neutral-400" />
+              <span>{t("common.download_cv")}</span>
+            </a>
           </div>
         </div>
 
