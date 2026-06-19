@@ -67,7 +67,7 @@ export default function GithubContributions() {
               repoCommits.forEach((commit: any, idx: number) => {
                 if (commits.length < 5) {
                   const message = commit.commit?.message || "Update";
-                  const type = repo.topics?.includes("abap") || repo.name.includes("abap") ? "abap" 
+                  const type = repo.topics?.includes("abap") || repo.name.includes("abap") || repo.name.includes("SAP") || repo.name.includes("BgJob") ? "abap" 
                              : repo.topics?.includes("web") || message.includes("react") || message.includes("next") ? "web" 
                              : "docs";
 
