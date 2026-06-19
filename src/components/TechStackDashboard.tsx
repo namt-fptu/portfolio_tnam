@@ -135,7 +135,7 @@ export default function TechStackDashboard() {
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-[#ff5722]" />
             <span className="text-[10px] font-mono leading-none tracking-widest text-[#ff5722] font-black uppercase">
-              {language === "vi" ? "KIẾN TRÚC NĂNG LỰC CỦA TÔI" : "NICO TECH MATRIX"}
+              {language === "vi" ? "KIẾN TRÚC NĂNG LỰC CỦA TÔI" : "NAM TECH MATRIX"}
             </span>
           </div>
           <div className="space-y-2">

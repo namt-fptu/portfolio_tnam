@@ -104,7 +104,7 @@ export default function Footer({ onTalkClick }: FooterProps) {
                 NTN
               </div>
               <div className="flex flex-col">
-                <span className="text-[10px] font-mono leading-none tracking-wider text-[#ff5722] font-bold">NICO T. NAM</span>
+                <span className="text-[10px] font-mono leading-none tracking-wider text-[#ff5722] font-bold">NGUYỄN THÁI NAM</span>
                 <span className="text-xs font-bold leading-none text-white mt-0.5">SAP & WEB ENTHUSIAST</span>
               </div>
             </div>
