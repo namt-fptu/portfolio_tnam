@@ -217,7 +217,7 @@ export default function ContactForm({ onClose, inlineMode = false }: ContactForm
             <div className="space-y-1">
               <span className="text-[8px] font-mono font-bold text-neutral-400 uppercase tracking-wider block">GITHUB ARCHIVE</span>
               <span className="text-xs font-bold text-neutral-800 block truncate">
-                namnt-abap
+                namt-fptu
               </span>
             </div>
           </div>
