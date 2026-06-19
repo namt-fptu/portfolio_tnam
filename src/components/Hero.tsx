@@ -16,8 +16,8 @@ interface HeroProps {
 export default function Hero({ onTalkClick, onSeeWorkClick }: HeroProps) {
   const { t } = useLanguage();
   
-  const LINKEDIN_URL = import.meta.env.VITE_LINKEDIN_URL || "https://linkedin.com/in/your-profile";
-  const GITHUB_URL = import.meta.env.VITE_GITHUB_URL || "https://github.com/your-username";
+  const LINKEDIN_URL = "https://www.linkedin.com/in/tnamhocfpt";
+  const GITHUB_URL = "https://github.com/namt-fptu";
 
   return (
     <section id="playground" className="w-full py-6 lg:py-10 px-4 lg:px-8 bg-[#fcfcfc] overflow-hidden">

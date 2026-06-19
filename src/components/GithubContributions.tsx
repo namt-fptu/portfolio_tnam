@@ -32,7 +32,7 @@ export default function GithubContributions() {
   const [loading, setLoading] = useState(true);
 
   const GITHUB_USERNAME = "namt-fptu";
-  const GITHUB_API_TOKEN = import.meta.env.VITE_GITHUB_API_TOKEN; // Optional for higher rate limits
+  const GITHUB_API_TOKEN = ""; // Optional for higher rate limits
 
   // Fetch GitHub data
   useEffect(() => {

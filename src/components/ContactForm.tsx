@@ -17,11 +17,11 @@ export default function ContactForm({ onClose, inlineMode = false }: ContactForm
   const [copiedEmail, setCopiedEmail] = useState(false);
   const [copiedPhone, setCopiedPhone] = useState(false);
 
-  // Constants - Use environment variables with fallback defaults
-  const MY_EMAIL = import.meta.env.VITE_CONTACT_EMAIL || "sofn2004@gmail.com";
-  const MY_PHONE = import.meta.env.VITE_CONTACT_PHONE || "+84 964 821 721";
-  const LINKEDIN_URL = import.meta.env.VITE_LINKEDIN_URL || "https://linkedin.com/in/your-profile";
-  const GITHUB_URL = import.meta.env.VITE_GITHUB_URL || "https://github.com/your-username";
+  // Constants - Contact credentials
+  const MY_EMAIL = "sofn2004@gmail.com";
+  const MY_PHONE = "0378290909";
+  const LINKEDIN_URL = "https://www.linkedin.com/in/tnamhocfpt";
+  const GITHUB_URL = "https://github.com/namt-fptu";
 
   const handleCopyEmail = async () => {
     try {
@@ -189,7 +189,7 @@ export default function ContactForm({ onClose, inlineMode = false }: ContactForm
             <div className="space-y-1">
               <span className="text-[8px] font-mono font-bold text-neutral-400 uppercase tracking-wider block">LINKEDIN CHANNELS</span>
               <span className="text-xs font-bold text-neutral-800 block truncate">
-                nam-nguyen-sap
+                tnamhocfpt
               </span>
             </div>
           </div>

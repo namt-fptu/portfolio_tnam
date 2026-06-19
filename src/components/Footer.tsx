@@ -15,10 +15,10 @@ export default function Footer({ onTalkClick }: FooterProps) {
   const [vietnamTime, setVietnamTime] = useState("");
   const { language, t } = useLanguage();
 
-  // Security: Use environment variables for contact information
-  const MY_EMAIL = import.meta.env.VITE_CONTACT_EMAIL || "sofn2004@gmail.com";
-  const LINKEDIN_URL = import.meta.env.VITE_LINKEDIN_URL || "https://linkedin.com/in/your-profile";
-  const GITHUB_URL = import.meta.env.VITE_GITHUB_URL || "https://github.com/your-username";
+  // Contact details
+  const MY_EMAIL = "sofn2004@gmail.com";
+  const LINKEDIN_URL = "https://www.linkedin.com/in/tnamhocfpt";
+  const GITHUB_URL = "https://github.com/namt-fptu";
 
   useEffect(() => {
     const updateTime = () => {
