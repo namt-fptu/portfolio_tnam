@@ -14,6 +14,5 @@
       "main": true
     }
   },
-  "regions": ["sfo1"],
-  "public": false
+  "regions": ["sfo1"]
 }
