@@ -184,30 +184,7 @@ export default function Hero({ onTalkClick, onSeeWorkClick }: HeroProps) {
 
           </div>
 
-          <div className="flex gap-2 flex-wrap">
-            <button 
-              onClick={onTalkClick}
-              className="text-[11px] px-3.5 py-1.5 rounded-lg bg-neutral-900 text-white font-bold hover:bg-neutral-800 cursor-pointer"
-            >
-              {t("header.get_in_touch")}
-            </button>
-            <button 
-              onClick={onSeeWorkClick}
-              className="text-[11px] px-3.5 py-1.5 rounded-lg border border-neutral-200 hover:bg-neutral-100 text-neutral-600 font-bold cursor-pointer"
-            >
-              {t("hero.view_projects")}
-            </button>
-            <a 
-              href="/Tnam_CV.pdf"
-              download="Tnam_CV.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[11px] px-3.5 py-1.5 rounded-lg border border-neutral-200 hover:bg-neutral-100 text-neutral-600 font-bold cursor-pointer flex items-center gap-1.5"
-            >
-              <Download className="w-3.5 h-3.5 text-neutral-400" />
-              <span>{t("common.download_cv")}</span>
-            </a>
-          </div>
+
         </div>
 
       </div>
