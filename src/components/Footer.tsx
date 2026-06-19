@@ -145,9 +145,7 @@ export default function Footer({ onTalkClick }: FooterProps) {
               <button onClick={() => scrollToSecValue("about-me")} className="hover:text-white transition-colors text-left cursor-pointer">
                 {t("header.education")}
               </button>
-              <button onClick={() => scrollToSecValue("developer-contributions")} className="hover:text-white transition-colors text-left cursor-pointer">
-                {language === "vi" ? "Đóng Góp Github" : "Github Timelines"}
-              </button>
+
             </div>
           </div>
 

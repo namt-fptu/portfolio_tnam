@@ -10,7 +10,6 @@ import ExperienceAwards from "./components/ExperienceAwards";
 import ServicesSection from "./components/ServicesSection";
 import TechStackDashboard from "./components/TechStackDashboard";
 import SelectedWorks from "./components/SelectedWorks";
-import GithubContributions from "./components/GithubContributions";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 import { X } from "lucide-react";
@@ -113,9 +112,6 @@ export default function App() {
 
           {/* Selected Work visual gallery with interactive case study side-over drawer */}
           <SelectedWorks />
-
-          {/* GitHub Contributions timeline & commit logs */}
-          <GithubContributions />
 
           {/* Full inline contact form for clients scrolling till bottom */}
           <div id="contact-booking" className="w-full py-12 lg:py-16 px-4 lg:px-8 bg-neutral-50/50 border-t border-neutral-200/50">
