@@ -1,0 +1,40 @@
+# Version Control
+.git
+.gitignore
+.gitattributes
+
+# Dependencies
+node_modules
+
+# Environment
+.env.local
+.env.*.local
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts (clean before deploy)
+dist
+build
+.cache
+*.log
+
+# Test & Coverage
+__tests__
+__mocks__
+coverage
+*.test.ts
+*.test.tsx
+
+# Documentation
+docs
+.github
+
+# Config
+.npmrc
+.yarnrc

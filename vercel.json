@@ -1,0 +1,19 @@
+{
+  "buildCommand": "npm run build",
+  "framework": "vite",
+  "outputDirectory": "dist",
+  "env": {
+    "VITE_CONTACT_EMAIL": "@vite_contact_email",
+    "VITE_CONTACT_PHONE": "@vite_contact_phone",
+    "VITE_LINKEDIN_URL": "@vite_linkedin_url",
+    "VITE_GITHUB_URL": "@vite_github_url",
+    "VITE_GITHUB_API_TOKEN": "@vite_github_api_token"
+  },
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  },
+  "regions": ["sfo1"],
+  "public": false
+}
